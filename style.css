@@ -99,6 +99,10 @@ body,html{
 		height: 300px;
 		padding-top: 50px;
 	}
+
+	.blog-item{
+		width: 35vw;
+	}
 }
 
 
@@ -172,6 +176,10 @@ body,html{
 	}
 	.post{
 		font-size: 0.8em;
+	}
+	
+	.blog-item{
+		width: 75vw;
 	}
 }
 
@@ -292,8 +300,8 @@ body,html{
 
 .blog-item{
 	color: #480B65;
-	width: 35vw;
 }
+
 
 .blog-item a{
 	color: #480B65;
