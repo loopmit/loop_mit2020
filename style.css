@@ -279,3 +279,23 @@ body,html{
 	text-align: center;
 	background-color: #64506e;
 }
+
+
+.blogs{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10px 10vw;
+	padding-bottom: 10px; 
+	font-family: Helvetica;
+	justify-content: space-between;
+}
+
+.blog-item{
+	color: #480B65;
+	width: 35vw;
+}
+
+.blog-item a{
+	color: #480B65;
+	font-weight: bolder;
+}
