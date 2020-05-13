@@ -1,0 +1,55 @@
+body,html{
+			margin: 0;
+		}
+		@media(max-width: 599px){
+			.blog{
+				margin: 10px 30px;
+				padding:10px 10px; 
+			}
+			.blog h1{
+				font-size: 1.5em;
+			}
+
+		}
+		@media(min-width: 600px){
+			.blog{
+				margin: 10px 200px;
+				padding:10px 50px; 
+			}
+			.blog h1{
+				font-size: 2em;
+			}
+		}
+		.blog{
+			font-family: Helvetica;
+		}
+
+		.blog h1{
+			color: #480B65;
+		}
+
+		nav{
+			background-color: #480B65;
+		}
+		nav img{
+			height: 35px;
+			margin: 10px 30px; 
+		}
+		.writer{
+			color: #480B65;
+			font-family: "Roboto";
+		}
+		ul{
+			float: right;
+			list-style-type: none;
+			color: white;
+			font-family: Gotham;
+			padding-right: 30px; 
+		}
+		ul a{
+			color: white;
+			text-decoration: none;
+		}
+		ul a:hover{
+			font-weight: bolder;
+		}
